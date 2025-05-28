@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Contato | Instituto Vida Animal</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Instituto Vida Animal</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="veterinarios.html">Veterinários</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html" class="active">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h1>Fale Conosco</h1>
+        <p>Estamos prontos para atender você e seu pet</p>
+    </section>
+
+    <section class="contato">
+        <div class="info">
+            <p><strong>Endereço:</strong> Rua dos Animais, 123 - São Paulo, SP</p>
+            <p><strong>Telefone:</strong> (71) 1234-5678</p>
+            <p><strong>Email:</strong> contato@vidaanimal.com</p>
+        </div>
+
+        <form id="form-contato" class="form-contato" action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required />
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+
+            <button type="submit" class="btn-enviar">Enviar</button>
+            <p id="feedback" style="margin-top: 10px; font-weight: bold;"></p>
+
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Instituto Vida Animal. Todos os direitos reservados.</p>
+            <p>Email: contato@vidaanimal.com | Telefone: (71) 1234-5678</p>
+            <div class="redes">
+                <a href="#">Instagram</a> | <a href="#">Facebook</a> | <a href="#">WhatsApp</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Agendamento | Instituto Vida Animal</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Instituto Vida Animal</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="veterinarios.html">Veterinários</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h1>Agende uma Consulta</h1>
+        <p>Facilidade e rapidez no seu agendamento</p>
+    </section>
+
+    <section class="agendamento">
+        <form id="form-agendamento">
+            <label>Nome Completo:</label>
+            <input type="text" required>
+
+            <label>Email:</label>
+            <input type="email" required>
+
+            <label>Telefone:</label>
+            <input type="tel" required>
+
+            <label>Serviço:</label>
+            <select required>
+                <option value="">Selecione</option>
+                <option>Banho & Tosa</option>
+                <option>Consulta</option>
+                <option>Vacinação</option>
+                <option>Emergência</option>
+                <option>Cirurgia</option>
+                <option>Exames</option>
+            </select>
+
+            <label>Data:</label>
+            <input type="date" required>
+
+            <label>Mensagem:</label>
+            <textarea rows="4"></textarea>
+
+            <button type="submit">Agendar</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Instituto Vida Animal. Todos os direitos reservados.</p>
+            <p>Email: contato@vidaanimal.com | Telefone: (71) 1234-5678</p>
+            <div class="redes">
+                <a href="#">Instagram</a> | <a href="#">Facebook</a> | <a href="#">WhatsApp</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
