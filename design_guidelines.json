@@ -1,0 +1,241 @@
+{
+  "theme": "light",
+  "archetype": "ORGANIC & EARTHY + MODERN CLINICAL TEAL/EMERALD (Care, Trust, Vitality)",
+  "language": "pt-BR",
+  "colors": {
+    "primary": "#0D9488",
+    "primary_dark": "#0F766E",
+    "primary_light": "#CCFBF1",
+    "secondary": "#10B981",
+    "accent": "#0284C7",
+    "on_accent": "#FFFFFF",
+    "surfaces": [
+      {
+        "name": "page",
+        "kind": "solid",
+        "bg": "#F8FAFC",
+        "on_bg": "#0F172A",
+        "on_bg_muted": "#475569",
+        "roles": {
+          "link": "#0F766E",
+          "error": "#DC2626",
+          "success": "#16A34A",
+          "warning": "#D97706"
+        }
+      },
+      {
+        "name": "panel",
+        "kind": "solid",
+        "bg": "#FFFFFF",
+        "on_bg": "#0F172A",
+        "on_bg_muted": "#64748B",
+        "roles": {
+          "border": "#E2E8F0",
+          "hover_bg": "#F1F5F9"
+        }
+      },
+      {
+        "name": "subtle_teal",
+        "kind": "solid",
+        "bg": "#F0FDFA",
+        "on_bg": "#134E4A",
+        "on_bg_muted": "#115E59"
+      },
+      {
+        "name": "brand_emerald",
+        "kind": "solid",
+        "bg": "#ECFDF5",
+        "on_bg": "#064E3B",
+        "on_bg_muted": "#065F46"
+      },
+      {
+        "name": "inverse",
+        "kind": "solid",
+        "bg": "#042F2E",
+        "on_bg": "#F0FDFA",
+        "on_bg_muted": "#99F6E4",
+        "roles": {
+          "link": "#5EEAD4",
+          "accent_badge": "#14B8A6"
+        }
+      },
+      {
+        "name": "hero",
+        "kind": "image",
+        "contrast_against": "#042F2E",
+        "guarantee": "scrim: linear-gradient(135deg, rgba(4,47,46,0.92) 0%, rgba(15,118,110,0.85) 60%, rgba(13,148,136,0.70) 100%)",
+        "on_bg": "#FFFFFF",
+        "on_bg_muted": "#CCFBF1",
+        "roles": {
+          "link": "#5EEAD4",
+          "error": "#FECACA",
+          "success": "#BBF7D0"
+        }
+      },
+      {
+        "name": "glass_header",
+        "kind": "glass",
+        "contrast_against": "#FFFFFF",
+        "guarantee": "backdrop-blur-xl bg-white/85 border-b border-slate-200/80 shadow-xs",
+        "on_bg": "#0F172A",
+        "on_bg_muted": "#475569"
+      }
+    ]
+  },
+  "typography": {
+    "font_heading": "'Outfit Variable', sans-serif",
+    "font_sans": "'DM Sans Variable', sans-serif",
+    "scale_px": {
+      "display": 56,
+      "h1": 44,
+      "h2": 32,
+      "h3": 22,
+      "body": 16,
+      "caption": 14
+    },
+    "fontsource_imports": [
+      "@fontsource-variable/outfit",
+      "@fontsource-variable/dm-sans"
+    ],
+    "notes": "Outfit delivers human warmth + high precision geometry for veterinary care headlines; DM Sans provides ultra-readable body text for Brazilian Portuguese pet owners."
+  },
+  "entry_surfaces": {
+    "/": "split hero — brand value proposition + emergency badge + CTA left, dynamic pet care showcase badge & real veterinary photo right",
+    "/servicos": "clinical services catalog — filterable tabbed grid with transparent pricing, duration & direct booking hooks",
+    "/veterinarios": "medical team directory — rich profile cards with CRMV licenses, specialties, and bio modals",
+    "/sobre": "editorial narrative — clinic values, modern surgical facilities, timeline, mission and trust credentials",
+    "/contato": "contact hub — interactive location map card, emergency hotline, WhatsApp direct button, message form",
+    "/agendamentos": "stepped booking flow — interactive service picker, veterinary preference, live calendar slot selector, pet info, instant visual confirmation",
+    "/admin/login": "branded administrative gate — clinic management sign-in with security badge and demo quick-fill",
+    "/admin": "clinic command center — appointment triage board (pendente/confirmado/cancelado/concluído), quick stats, filterable schedule"
+  },
+  "layouts": {
+    "mobile_first": true,
+    "header": "Sticky crystal glass header with brand mark (Instituto Vida Animal), 6 desktop navigation links, emergency WhatsApp quick pill, and 'Agendar Consulta' CTA button. Responsive hamburger sheet for mobile.",
+    "footer": "Deep emerald/teal inverse footer (#042F2E) with CRMV credentials, emergency 24h notice, opening hours (Seg-Sáb 08h-20h, Plantão 24h), quick links, address in São Paulo/SP, and WhatsApp button.",
+    "bento_features": "Tetris-style asymmetric grid for clinic differentiators: 24h emergency unit, in-house laboratory, surgical center, certified grooming spa, cat-friendly exclusive area.",
+    "admin_layout": "High-density dashboard with summary KPI cards (Total Agendamentos, Pendentes, Confirmados Hoje, Concluídos), status filter pills, search bar, and action status dropdowns."
+  },
+  "image_urls": {
+    "hero_banner": {
+      "url": "https://images.pexels.com/photos/22504402/pexels-photo-22504402.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Veterinarian carefully examining dog alongside caring owner in bright modern clinic",
+      "category": "hero"
+    },
+    "doctor_ana_costa": {
+      "url": "https://images.unsplash.com/photo-1770836037816-4445dbd449fd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzR8MHwxfHNlYXJjaHw0fHx2ZXRlcmluYXJpYW4lMjBleGFtaW5pbmclMjBkb2d8ZW58MHx8fHwxNzkwMjk0NDQzfDA&ixlib=rb-4.1.0&q=85",
+      "description": "Dr. Lucas Mendes - Especialista em Odontologia e Clínica Geral",
+      "category": "team"
+    },
+    "doctor_marina_silva": {
+      "url": "https://images.pexels.com/photos/28644631/pexels-photo-28644631.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Dra. Marina Silva - Especialista em Felinos e Medicina Preventiva",
+      "category": "team"
+    },
+    "doctor_carlos_oliveira": {
+      "url": "https://images.unsplash.com/photo-1770836037793-95bdbf190f71?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzR8MHwxfHNlYXJjaHwzfHx2ZXRlcmluYXJpYW4lMjBleGFtaW5pbmclMjBkb2d8ZW58MHx8fHwxNzkwMjk0NDQzfDA&ixlib=rb-4.1.0&q=85",
+      "description": "Dr. Carlos Eduardo - Cirurgião Veterinário e Ortopedia",
+      "category": "team"
+    },
+    "services_vaccination": {
+      "url": "https://images.pexels.com/photos/6816857/pexels-photo-6816857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Gato recebendo vacinação e cuidados preventivos",
+      "category": "services"
+    },
+    "services_emergency_care": {
+      "url": "https://images.unsplash.com/photo-1770836037275-38b44e4b101f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzR8MHwxfHNlYXJjaHwyfHx2ZXRlcmluYXJpYW4lMjBleGFtaW5pbmclMjBkb2d8ZW58MHx8fHwxNzkwMjk0NDQzfDA&ixlib=rb-4.1.0&q=85",
+      "description": "Atendimento emergencial e cuidados intensivos com equipe veterinária",
+      "category": "services"
+    },
+    "clinic_facility": {
+      "url": "https://images.unsplash.com/photo-1654895716780-b4664497420d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzR8MHwxfHNlYXJjaHwxfHx2ZXRlcmluYXJpYW4lMjBleGFtaW5pbmclMjBkb2d8ZW58MHx8fHwxNzkwMjk0NDQzfDA&ixlib=rb-4.1.0&q=85",
+      "description": "Ambiente acolhedor e seguro para pets de todos os portes",
+      "category": "about"
+    }
+  },
+  "component_structure": {
+    "pages": [
+      {
+        "path": "/frontend/src/pages/Home.tsx",
+        "route": "/",
+        "name": "Início (Home)",
+        "features": "Hero with stats badges, Quick booking card, Featured services grid, Certified vets preview, Differentiators bento grid, Testimonials carousel, Emergency 24h CTA bar"
+      },
+      {
+        "path": "/frontend/src/pages/Services.tsx",
+        "route": "/servicos",
+        "name": "Serviços",
+        "features": "Complete catalog of 6 core services: Banho & Tosa, Consulta Geral & Especializada, Vacinação & Imunização, Emergência 24h, Cirurgia Veterinária, Exames Laboratoriais & Imagem. Category filters and pricing guides."
+      },
+      {
+        "path": "/frontend/src/pages/Veterinarians.tsx",
+        "route": "/veterinarios",
+        "name": "Veterinários",
+        "features": "Medical staff directory with CRMV numbers, specializations, academic background, consultation schedules, and 'Agendar com este profissional' direct links."
+      },
+      {
+        "path": "/frontend/src/pages/About.tsx",
+        "route": "/sobre",
+        "name": "Sobre Nós",
+        "features": "Clinic history, mission, medical infrastructure, sterilization protocols, hospital tour gallery, ethical principles."
+      },
+      {
+        "path": "/frontend/src/pages/Contact.tsx",
+        "route": "/contato",
+        "name": "Contato & Localização",
+        "features": "Interactive contact form with MongoDB persistence, live WhatsApp link, Google Maps interactive card, emergency hotline with one-click call, operating hours."
+      },
+      {
+        "path": "/frontend/src/pages/Appointments.tsx",
+        "route": "/agendamentos",
+        "name": "Agendamento Online",
+        "features": "Comprehensive booking flow with: Nome do tutor, Email, Telefone/WhatsApp com máscara pt-BR (11) 99999-9999, Seleção de Serviço, Data (Shadcn Calendar), Preferência de Veterinário, Nome do Pet e Espécie (Cão/Gato/Outro), Mensagem/Sintomas. Visual booking confirmation modal + summary."
+      },
+      {
+        "path": "/frontend/src/pages/AdminLogin.tsx",
+        "route": "/admin/login",
+        "name": "Admin Login",
+        "features": "Clean secure portal entry with prefilled demo credentials toggle (admin / vidaanimal2025)."
+      },
+      {
+        "path": "/frontend/src/pages/AdminDashboard.tsx",
+        "route": "/admin",
+        "name": "Painel Administrativo",
+        "features": "Status management (Pendente, Confirmado, Cancelado, Concluído), filter by date/service, search by tutor or pet name, realtime stats cards, contact messages inbox."
+      }
+    ],
+    "components": [
+      "/frontend/src/components/Navbar.tsx",
+      "/frontend/src/components/Footer.tsx",
+      "/frontend/src/components/EmergencyBanner.tsx",
+      "/frontend/src/components/ServiceCard.tsx",
+      "/frontend/src/components/VetCard.tsx",
+      "/frontend/src/components/BookingModal.tsx"
+    ]
+  },
+  "motion_guidelines": {
+    "library": "motion/react",
+    "stagger_children": 0.08,
+    "default_transition": "duration: 0.25, ease: 'easeOut'",
+    "interactive_hover": "scale: 1.02, transition: { duration: 0.2 }",
+    "reduced_motion": "Wrap animations with prefers-reduced-motion checks or subtle opacity-only transitions."
+  },
+  "accessibility_and_locale": {
+    "locale": "pt-BR",
+    "currency_format": "R$ 0,00 (Ex: R$ 180,00)",
+    "date_format": "DD/MM/YYYY (Ex: 24/08/2025)",
+    "phone_format": "(11) 98765-4321",
+    "wcag_compliance": "AA (All normal text > 4.5:1, large text > 3.0:1)",
+    "test_attributes": "All forms, inputs, buttons, filter pills, status selects, and modals MUST feature explicit 'data-testid' attributes (e.g. data-testid='booking-submit-btn', data-testid='service-card-cirurgia', data-testid='admin-status-select')."
+  },
+  "instructions_to_main_agent": [
+    "Replace the amateur website look with an authentic, high-end veterinary clinic portal for 'Instituto Vida Animal'.",
+    "Update /frontend/src/index.css to import '@fontsource-variable/outfit' and '@fontsource-variable/dm-sans', set --font-heading: 'Outfit Variable', sans-serif, and configure deep teal/emerald clinical theme tokens.",
+    "Ensure all 6 public pages (Início, Serviços, Veterinários, Sobre, Contato, Agendamentos) and the Admin area (/admin, /admin/login) are fully implemented and connected to FastAPI backend routes.",
+    "Provide realistic seed data via backend/seed.py for services (Banho & Tosa, Consulta Geral, Vacinação, Emergência 24h, Cirurgia, Exames), veterinarians (with CRMV-SP credentials), and initial appointment records.",
+    "Form inputs must support Brazilian phone masking '(XX) XXXXX-XXXX' and Brazilian Portuguese validation messages.",
+    "Use Sonner for toast notifications when appointments are booked or status updated.",
+    "Admin dashboard must allow switching status between 'pendente', 'confirmado', 'concluído', 'cancelado' with instantaneous visual feedback.",
+    "Include an emergency 24h floating/top alert with immediate call and WhatsApp trigger for urgent pet care."
+  ]
+}
